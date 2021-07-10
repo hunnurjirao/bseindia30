@@ -81,7 +81,7 @@ def bsetrending():
             'High': float(companyHigh[i]),
             'Low': float(companyLow[i]),
             'Change_in_per': float(companyChange[i]),
-            'close price': float(companyClose[i])
+            'close_price': float(companyClose[i])
         })
 
     new_dict = sorted(
