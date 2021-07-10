@@ -11,7 +11,7 @@ def hello_world():
     return "<p>Hello, World!</p>"
 
 
-@app.route('/getdata')
+@app.route('/getdata',methods=["GET"])
 def getdata():
     data = requests.get(
         'https://www.moneycontrol.com/stocks/marketstats/bsemact1/index.php').text
